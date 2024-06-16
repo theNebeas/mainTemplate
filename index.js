@@ -30,16 +30,66 @@ module.exports = io;
 // const mongoose = require("mongoose");
 
 
-// imports ====================
+// proprietary imports ====================
+
+const { logEndpoint, devLog } = require("./backend/globalHelpers");
+let apiPrefix = process.env.API_PREFIX || "api";
+
+// middleware set-up ====================
+app.use(express.static(__dirname + "/clientSide"));
+app.use(compression());
+
+app.use(express.json());
+app.disable('x-powered-by');
+app.set("views", path.join(__dirname, "/EJS_files"));
+app.set("view engine", "ejs");
 
 const PORT = process.env.PORT || 4477;
 
-app.get("/",(req,res)=>{
-    console.log("get request")
-    res.send("hi")
+app.use((req, res, next)=>{
+
+  // TO:DO
+  // make content-language header dynamic
+
+  res.set({
+    "Author": "Nebeas",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options":"SAMEORIGIN",
+    "Content-Type":"text/html;charset=UTF-8",
+    "Content-Language":"en-US",
+    "Content-Security-Policy":"default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'",
+    "Strict-Transport-Security":"max-age=31336000; includeSubDomains; preload"
+  })
+  
+  // Headers for development
+  if(process.env.DEV_MODE == "TRUE"){
+    res.set({
+      "Cache-Control": "no-cache",
+      "Development-mode": "true",
+    })
+  }
+
+  if(process.env.DEV_LOGGING == "TRUE"){
+    logEndpoint(req, res, next)
+  }
+
+  next()
 })
 
+app.get("/",(req,res)=>{
+    console.log("get request")
+    res.render("screens/index")
+})
+
+// top-level routing ====================
+const clientRoutes = require("./backend/routing/clientRoutes");
+app.use("/", clientRoutes);
+
+const apiRoutes = require("./backend/routing/apiRoutes");
+app.use(`/${apiPrefix}/`, apiRoutes);
+
 app.listen(PORT, function () {
-    console.log("WHAT THE SIGMA:      http://localhost:" + PORT);
+  devLog("WHAT THE SIGMAs:      http://localhost:" + PORT)
+    /* console.log("WHAT THE SIGMA:      http://localhost:" + PORT); */
   });
   
