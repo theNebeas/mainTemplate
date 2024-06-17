@@ -1,0 +1,15 @@
+<!-- 
+id
+href
+target
+text 
+imageSrc
+-->
+<a id="<%= typeof id == 'undefined' ? '' : id %>" href="<%= typeof href == 'undefined' ? '' : href %>" target="<%= typeof target == 'undefined' ? '' : target %>" class="button default">
+    <%= typeof text == 'undefined' ? '' : text %>
+
+    <%if(typeof imageSrc !== "undefined" && imageSrc !== false){%>
+        <img src="<%= imageSrc %>"/>
+    <%}%>
+
+</a>

@@ -46,4 +46,4 @@ const logEndpoint = function (req, res, next) {
 
 
 
-module.exports = { logEndpoint, devLog };
+module.exports = { logEndpoint, devLog, checkParameters };

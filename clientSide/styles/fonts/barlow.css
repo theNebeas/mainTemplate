@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Barlow Black";
+  src: url("/fonts/barlow/woff2/Barlow-Black.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Black Italic";
+  src: url("/fonts/barlow/woff2/Barlow-BlackItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Bold";
+  src: url("/fonts/barlow/woff2/Barlow-Bold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Bold Italic";
+  src: url("/fonts/barlow/woff2/Barlow-BoldItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow ExtraBold";
+  src: url("/fonts/barlow/woff2/Barlow-ExtraBold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow ExtraBold Italic";
+  src: url("/fonts/barlow/woff2/Barlow-ExtraBoldItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow ExtraLight";
+  src: url("/fonts/barlow/woff2/Barlow-ExtraLight.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow ExtraLight Italic";
+  src: url("/fonts/barlow/woff2/Barlow-ExtraLightItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Italic";
+  src: url("/fonts/barlow/woff2/Barlow-Italic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Light";
+  src: url("/fonts/barlow/woff2/Barlow-Light.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Light Italic";
+  src: url("/fonts/barlow/woff2/Barlow-LightItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Medium";
+  src: url("/fonts/barlow/woff2/Barlow-Medium.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Medium Italic";
+  src: url("/fonts/barlow/woff2/Barlow-MediumItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Regular";
+  src: url("/fonts/barlow/woff2/Barlow-Regular.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow SemiBold";
+  src: url("/fonts/barlow/woff2/Barlow-SemiBold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow SemiBold Italic";
+  src: url("/fonts/barlow/woff2/Barlow-SemiBoldItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Thin";
+  src: url("/fonts/barlow/woff2/Barlow-Thin.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Thin Italic";
+  src: url("/fonts/barlow/woff2/Barlow-ThinItalic.woff2");
+  font-display: swap;
+}
+
+/*# sourceMappingURL=barlow.css.map */

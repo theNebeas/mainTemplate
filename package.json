@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "watchNode": "node --watch index",
-    "compileSass": "sass --watch server_styles:client_side/styles",
+    "compileSass": "sass --watch serverStyles:clientSide/styles",
     "devBuild": "start /B cmd /C \"npm run watchNode\" & start /B cmd /C \"npm run compileSass\"",
     "devStop": "taskkill /F /IM node.exe & taskkill /F /IM cmd.exe"
   },

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Spline Sans Bold";
+  src: url("/fonts/splineSans/woff2/SplineSans-Bold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Light";
+  src: url("/fonts/splineSans/woff2/SplineSans-Light.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Medium";
+  src: url("/fonts/splineSans/woff2/SplineSans-Medium.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Regular";
+  src: url("/fonts/splineSans/woff2/SplineSans-Regular.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans SemiBold";
+  src: url("/fonts/splineSans/woff2/SplineSans-SemiBold.woff2");
+  font-display: swap;
+}
+
+/*# sourceMappingURL=splineSans.css.map */

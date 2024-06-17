@@ -1,0 +1,73 @@
+/* Default font settings.
+The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+html {
+  font-size: 12px;
+  color: #222;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #111;
+}
+
+h1 {
+  font-size: 4.83rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  font-family: "Spline Sans Bold";
+}
+
+h2 {
+  font-size: 2.66rem;
+  margin-bottom: 0.75rem;
+  font-family: "Spline Sans SemiBold";
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-family: "Spline Sans Medium";
+}
+
+h4 {
+  font-size: 1.66rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  font-family: "Spline Sans Regular";
+}
+
+h5 {
+  font-size: 1.33rem;
+  margin-bottom: 1.5rem;
+  font-family: "Spline Sans Regular";
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  font-family: "Spline Sans Light";
+}
+
+p {
+  font-size: 1.66rem;
+  font-family: "Spline Sans Regular";
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/*# sourceMappingURL=typography.css.map */

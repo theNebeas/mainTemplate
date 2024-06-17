@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Spline Sans Mono Bold";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-Bold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Bold Italic";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-BoldItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Italic";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-Italic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Light";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-Light.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Light Italic";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-LightItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Medium";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-Medium.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Medium Italic";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-MediumItalic.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono Regular";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-Regular.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono SemiBold";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-SemiBold.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Spline Sans Mono SemiBold Italic";
+  src: url("/fonts/splineSansMono/woff2/SplineSansMono-SemiBoldItalic.woff2");
+  font-display: swap;
+}
+
+/*# sourceMappingURL=splineSansMono.css.map */

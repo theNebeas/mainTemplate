@@ -32,7 +32,7 @@ module.exports = io;
 
 // proprietary imports ====================
 
-const { logEndpoint, devLog } = require("./backend/globalHelpers");
+const { logEndpoint, devLog, checkParameters } = require("./backend/globalHelpers");
 let apiPrefix = process.env.API_PREFIX || "api";
 
 // middleware set-up ====================
@@ -86,7 +86,7 @@ const apiRoutes = require("./backend/routing/apiRoutes");
 app.use(`/${apiPrefix}/`, apiRoutes);
 
 app.listen(PORT, function () {
-  devLog("WHAT THE SIGMAs:      http://localhost:" + PORT)
-    /* console.log("WHAT THE SIGMA:      http://localhost:" + PORT); */
-  });
+  devLog(checkParameters.isValid(1))
+  devLog("Project is live at: http://localhost:" + PORT)
+});
   
