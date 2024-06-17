@@ -48,9 +48,6 @@ const PORT = process.env.PORT || 4477;
 
 app.use((req, res, next)=>{
 
-  // TO:DO
-  // make content-language header dynamic
-
   res.set({
     "Author": "Nebeas",
     "X-Content-Type-Options": "nosniff",
